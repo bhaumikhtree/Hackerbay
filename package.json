@@ -1,0 +1,33 @@
+{
+  "name": "hackerbay",
+  "version": "1.0.0",
+  "description": "a test for hackerbay",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover mocha",
+    "start": "node server.js"
+  },
+  "author": "bhaumik@htree.plus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jimp": "^0.10.3",
+    "json-patch": "^0.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.19.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "supertest": "^4.0.2"
+  }
+}
