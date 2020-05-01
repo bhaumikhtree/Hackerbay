@@ -1,5 +1,5 @@
 # Hackerbay
-A test for HackerBay
+A Test for HackerBay
 
 ### Setup and Run Project
 
@@ -72,6 +72,11 @@ A test for HackerBay
      1.open terminal and cd to root of project
      2.run command
         docker run -it -p 3000:3000 --rm username/tagname npm test
+     
+     On running command all test cases will be executed and coverage report will generated
+     
+     Instanbul coverage report will be generated in coverage directory of root folder on docker container.
+
 
 
 
