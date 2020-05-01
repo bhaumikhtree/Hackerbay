@@ -6,8 +6,8 @@ A test for HackerBay
     1. git clone https://github.com/bhaumikhtree/Hackerbay.git
     2. open terminal and cd into project repo
     3. run command:
-       docker build -t hello .
-       docker run -it -p 3000:3000 hello
+       docker build -t username/tagname .
+       docker run -it -p 3000:3000 --rm username/tagname
 
 ### Testing of Api can be done  with POSTMAN
     
@@ -71,7 +71,7 @@ A test for HackerBay
 
      1.open terminal and cd to root of project
      2.run command
-        docker run -it -p 3000:3000 hello npm test
+        docker run -it -p 3000:3000 --rm username/tagname npm test
 
 
 
