@@ -77,9 +77,9 @@ A test for HackerBay
 
 ## Logger
    
-   For logging Morgan is used and all logs are wriiten in access.log file 
+    For logging Morgan is used and all logs are wriiten in access.log file and also can see in terminal too
 
 ## DockerFile 
-   docker pull bhaumikhtree/hackerbay
+    docker pull bhaumikhtree/hackerbay
 
 
