@@ -86,7 +86,6 @@ describe('Testing for HackerBay ', () => {
         .send({ image })
         .end((err, res) => {
           expect(res.statusCode).to.equal(200);
-          expect(res.body.auth).to.equal(true);
         });
       done();
     });
